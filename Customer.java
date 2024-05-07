@@ -27,7 +27,8 @@ class Customer {
             Rental aRental = (Rental) rentals.nextElement();
             //determine amounts for aRental line
             //totalAmount = amountFor(aRental);
-            // add frequent renter points
+            // add freqñññ
+            
             frequentRenterPoints += aRental.getFrequentRenterPoints();            
             //show figures for this rental
             result += "\t" + aRental.getMovie().getTitle()+ "\t" + String.valueOf(aRental.getCharge()) + "\n";
