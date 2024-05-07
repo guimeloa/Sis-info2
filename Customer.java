@@ -28,7 +28,8 @@ class Customer {
             //determine amounts for aRental line
             //totalAmount = amountFor(aRental);
             // add freqñññ
-            
+            //infornsticsinformática 
+
             frequentRenterPoints += aRental.getFrequentRenterPoints();            
             //show figures for this rental
             result += "\t" + aRental.getMovie().getTitle()+ "\t" + String.valueOf(aRental.getCharge()) + "\n";
